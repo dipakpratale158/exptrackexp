@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+:root {
+  --primary-color: #007bff;
+  --background-color: #ffffff;
+  --text-color: #333333;
+}
+
+.dark {
+  --primary-color: #ffffff;
+  --background-color: #333333;
+  --text-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: blanchedalmond; /* Add this line to set the background color */
+  color: var(--text-color); /* Set the text color to the variable value */
+}
+

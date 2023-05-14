@@ -1,0 +1,30 @@
+.welcome{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    padding: 20px 20px;
+    border-bottom: 2px solid gray;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-logout{
+    background-color: #021f3e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;   
+}
+.card {
+   
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+   
+  }
+
+  .dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
